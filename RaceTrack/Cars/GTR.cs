@@ -19,6 +19,7 @@ namespace RaceTrack.RaceTrack.Cars
 
         public override void Brake()
         {
+            Console.WriteLine($"The {Name} stops on a dime");
             base.Brake();
         }
 
